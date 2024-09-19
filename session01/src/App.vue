@@ -1,13 +1,7 @@
-<template>
-    <h1>hello world!</h1>
-</template>
+<template></template>
 
 <script>
-console.log("hello!");
-
-export default {}
-  
-
+export default {};
 </script>
 
 <style></style>
