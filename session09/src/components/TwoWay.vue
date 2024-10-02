@@ -39,6 +39,8 @@
                 giới tính khác
             </li>
             <p>giá trị giới tính được chọn:{{ gender }}</p>
+
+            <p><input type="date" v-model="a" /></p>
         </ul>
     </div>
 </template>
@@ -50,5 +52,6 @@ const handleClick = () => {
 };
 const hobbies = ref([]);
 const gender = ref("nữ");
+let a = ref("học");
 </script>
 <style></style>
