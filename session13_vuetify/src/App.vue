@@ -13,7 +13,6 @@
         <v-select
             label="mời chọn phòng ban"
             :items="['kế toán', 'nhân sự', 'bảo vệ', 'kĩ thuật', 'lao công']"
-            
         ></v-select>
         <!-- <v-carousel>
             <v-carousel-item
@@ -33,7 +32,6 @@
         <v-icon icon="$vuetify"></v-icon>
         <!-- <LocalMallIcon></LocalMallIcon>; -->
         <i class="fa-solid fa-cart-shopping"></i>
-
         <v-container class="bg-surface-variant">
             <v-row no-gutters>
                 <v-col cols="12" md="5" lg="2"> cột 1 </v-col>
@@ -48,9 +46,7 @@
                 <v-col> cột 10 </v-col>
                 <v-col> cột 11 </v-col>
                 <v-col> cột 12 </v-col>
-                
             </v-row>
-
             <!-- <v-row no-gutters>
                 <v-col cols="2"> cột 6 </v-col>
                 <v-col> cột 7 </v-col>
@@ -67,9 +63,7 @@
         <!-- 
           responsive
           tương thích giữa các màn hình.
-
          -->
-        
     </div>
 </template>
 <script setup>

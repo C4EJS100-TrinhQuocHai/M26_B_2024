@@ -23,7 +23,6 @@ import {
     computed,
 } from "vue";
 const props = defineProps(["count"]);
-// console.log("11111", props);
 const countC = ref(0);
 const countD = ref(0);
 
@@ -38,10 +37,13 @@ onBeforeMount(() => {
     console.log(" hook onBeforeMount được gọi");
 });
 const caculatorC = () => {
+    console.log("hàm tính toán được gọi!");
+    
     return countC.value ** 2;
 };
 const caculatorD = computed(() => {
-    console.log(111111);
+    console.log("computed được gọi!");
+    
     return countD.value ** 2;
 });
 /*
@@ -51,8 +53,7 @@ const caculatorD = computed(() => {
 */
 /*
     giai đoạn unmounting: giai đoạn hủy tức là component được loại bỏ, tháo gỡ
-    khỏi DOM.
-
+    khỏi Dom
 */
 onBeforeUpdate(() => {
     console.log("hook onbeforeupdate được gọi!");
