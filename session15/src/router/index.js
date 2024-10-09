@@ -12,6 +12,7 @@ const routes = [
     { path: '/about', name: "about", component: AboutView },
     { path: '/contact', component: ContactView },
     { path: "/user/:id", component: UserDetail },
+    {path:"admin",component:Admin},
     {
         path: "/product",
         component: Product,
@@ -26,5 +27,5 @@ const routes = [
 ]
 export const router = createRouter({
     history: createWebHistory(),
-    routes,
+    routes:routes,
 })
