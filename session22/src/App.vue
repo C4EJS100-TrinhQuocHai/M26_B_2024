@@ -55,6 +55,7 @@ const deleteUser = (id) => {
 const updateUser = (id) => {
     const updateUser = {
         name: "Thảo Phương",
+        
     };
     fetch(`http://localhost:3000/users/${id}`, {
         method: "PUT",

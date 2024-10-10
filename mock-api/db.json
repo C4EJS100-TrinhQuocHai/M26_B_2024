@@ -1,12 +1,16 @@
 {
   "users": [
     {
-      "name": "Thảo Phương",
+      "name": "thảo Phương",
       "id": 3
     },
     {
-      "name": " Thu Hà",
-      "id": 4
+      "name": "hiệp Đen",
+      "id": 5
+    },
+    {
+      "name": "bình",
+      "id": 7
     }
   ]
 }
