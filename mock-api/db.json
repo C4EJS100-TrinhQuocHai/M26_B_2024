@@ -4,5 +4,43 @@
       "name": "bình",
       "id": 7
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mèn Mén"
+    },
+    {
+      "name": "Mì Tôm!",
+      "id": 2
+    },
+    {
+      "name": "iphone!",
+      "id": 3
+    },
+    {
+      "name": "iphone!",
+      "id": 4
+    },
+    {
+      "name": "iphone!",
+      "id": 5
+    },
+    {
+      "name": "iphone!",
+      "id": 6
+    },
+    {
+      "name": "iphone!",
+      "id": 7
+    },
+    {
+      "name": "iphone!",
+      "id": 8
+    },
+    {
+      "name": "iphone!",
+      "id": 9
+    }
   ]
 }
