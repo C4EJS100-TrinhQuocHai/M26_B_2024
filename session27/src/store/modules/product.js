@@ -4,23 +4,25 @@ const product = {
         products: []
     },
     mutations: {
-        getAllProduct: async (state) => {
+        getAllProduct: async (state, payload) => {
             state.products = await getAllProduct();
         },
         addProductMutation: async (state, payload) => {
             console.log("giá trị sản phẩm vừa thêm vào", payload);
-            const res = await addProduct(payload.data);
-            state.products.push(res);
+
+            state.products.push(payload);
         }
+
     },
     actions: {
         // xử lý các tác vụ bất đồng bộ
         // hàm đi lấy tất cả sản phẩm
+
         getAllProduct: ({ commit }) => {
             commit("getAllProduct")
         },
-        addProductAction: ({ commit }, payload) => {
-            commit("addProductMutation", payload)
+        addProductAction: async ({ commit }, payload) => {
+            commit("addProductMutation", await addProduct(payload.data))
         }
     }
 }
