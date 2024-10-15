@@ -12,12 +12,10 @@ const product = {
 
             state.products.push(payload);
         }
-
     },
     actions: {
         // xử lý các tác vụ bất đồng bộ
         // hàm đi lấy tất cả sản phẩm
-
         getAllProduct: ({ commit }) => {
             commit("getAllProduct")
         },
